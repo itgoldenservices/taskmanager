@@ -1,0 +1,19 @@
+.footer {
+    padding: 2rem 0;
+
+    &-content {
+        text-align: center;
+        color: #ffffff;
+        margin: 0;
+
+        a {
+            color: #ee701e;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+                color: #ee701e;
+            }
+        }
+    }
+}

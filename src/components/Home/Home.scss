@@ -1,0 +1,107 @@
+.home {
+    &_title {
+        background-color: #2f3848;
+        color: #ffffff;
+        font-size: 3rem;
+        margin: 0;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .container {
+        height: unset;
+        margin-top: 0;
+    }
+
+    .carousel {
+        background-color: #2f3848;
+
+        h3 {
+            color: #ffffff !important;
+        }
+    }
+
+    &_services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 3rem;
+        margin-top: 4rem !important;
+
+        .article {
+            text-align: center;
+
+            .img {
+                width: 9rem;
+            }
+
+            p {
+                line-height: 32px;
+            }
+        }
+    }
+
+    &_about {
+        background-color: #2f3848;
+
+        h2 {
+            margin-top: 40px;
+            color: #ffffff;
+        }
+
+        &_info {
+            margin-top: 20px;
+            text-align: center;
+
+            p {
+                color: #ffffff;
+                line-height: 40px;
+
+                span {
+                    color: #ffba42;
+                }
+            }
+        }
+    }
+
+    &_contact {
+        h2 {
+            margin-top: 40px;
+        }
+
+        &_sociales {
+            display: flex;
+            justify-content: center;
+
+            .twitter {
+                margin-right: 1rem;
+
+                @media screen and (min-width: 768px) {
+                    margin-right: 2rem;
+                }
+            }
+
+            .github {
+                margin-left: 1rem;
+
+                @media screen and (min-width: 768px) {
+                    margin-left: 2rem;
+                }
+            }
+
+            .social {
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    transform: scale(1.2);
+                    color: #2f3848;
+                }
+
+                span {
+                    color: #ee701e;
+                }
+            }
+        }
+    }
+}

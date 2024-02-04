@@ -1,0 +1,9 @@
+.task_custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_buttons {
+        height: 30px;
+    }
+}
